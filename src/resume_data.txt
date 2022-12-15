@@ -1,0 +1,48 @@
+// Know more about me
+// As a developer I am aware of the responsibility to deal with the complexity of the code and
+// how to fulfill the needs of the clients.
+// When I am not coding you wil see me playing cricket.I also love eating delicious food.
+
+const myResume = select('my_history');
+
+const myInfo = {
+    firstName: 'Undefined',
+    lastName: 'Undefined',
+    dob: 'Undefined',
+    email: 'undefined@gmail.com'
+};
+
+// My Work Experience
+const workExperience = () => {
+    return [
+        { '2019-now': 'Full-stack Developer' },
+        { '2019-now': 'Full-stack Developer' },
+        { '2019-now': 'Full-stack Developer' },
+        { '2019-now': 'Full-stack Developer' },
+        { '2019-now': 'Full-stack Developer' },
+        { '2019-now': 'Full-stack Developer' }
+    ];
+};
+
+// My Education Details
+const ecudation = () => {
+    return [
+        { '2019-now': 'Full-stack Developer' },
+        { '2019-now': 'Full-stack Developer' },
+        { '2019-now': 'Full-stack Developer' },
+        { '2019-now': 'Full-stack Developer' },
+        { '2019-now': 'Full-stack Developer' },
+        { '2019-now': 'Full-stack Developer' }
+    ];
+};
+
+// My Skills
+const skills = () => {
+    return [
+        "HTML", "CSS", "JS", "Vue", "Node.js", "jQuery", "Bootstrap", "Bulma", "Material Design",
+        "tailwind", "SASS", "Less", "npm", "yarn", "bower", "Docker", "PWA", "SSR", "SPA", "GIT", "CVS",
+        "Cordova", "NativeScript", "Electron", "Web-extensions", "Web Sockets", "Firebase",
+        "RWD/W3C/ARIA/WCAG", "XSLT", "Smarty/Twig", "PHP", "MySQL/NoSQL", "Wordpress", "C#", "Unity",
+        "TypeScript", "NestJS"
+    ];
+};

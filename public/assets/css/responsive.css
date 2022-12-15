@@ -1,0 +1,259 @@
+:root {
+  --left_percentage: ;
+  --textColor: ;
+  --percentageColor: ;
+  --percentageBarColor: ;
+  --bgColor: ;
+  --logoUrl: url("../images/react.svg");
+  --fs-xl: clamp(2.25rem, calc(6vw + 1rem), 5rem);
+  --fs-lg: clamp(2rem, calc(6vw + 1rem), 3.75rem);
+  --fs-md: clamp(1.5rem, calc(1.08vw + 1rem), 2.75rem);
+  --fs-sm: clamp(1.25rem, calc(1vw + 1rem), 2rem);
+  --header-height: 100px;
+  --primary: #0b0087;
+  --secondary: #fff700;
+  --primary-rgb: 11, 0, 135;
+  --secondary-rgb: 255, 247, 0;
+  --white: #fff;
+  --white-rgb: 255, 255, 255;
+  --black: #000;
+  --black-rgb: 0,0,0;
+  --success: green;
+  --gilroy-bold: "gilroyextrabold";
+  --gilroy-light: "gilroylight";
+  --roboto: "Roboto", sans-serif;
+  --montserrat: "Montserrat", sans-serif;
+  --transition: all 0.3s ease-in;
+  --editor-height: 1250px;
+}
+
+/* ==================== variables ====================== */
+@media (min-width: 320px) and (max-width: 767px) {
+  :root {
+    --fs-lg: clamp(1.5rem, calc(5vw + 1rem), 2.75rem);
+  }
+  .container {
+    padding-right: var(--bs-gutter-x, 5vw);
+    padding-left: var(--bs-gutter-x, 5vw);
+  }
+  header .subHeader {
+    height: 75px;
+  }
+  header .subHeader > div .logoBlock {
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    height: 140px;
+    font-size: calc(1.5rem + 2vw);
+    line-height: calc(1.5rem + 2vw);
+    padding: calc(1rem + 1vw);
+  }
+  header .subHeader > div .navigation {
+    position: absolute;
+  }
+  header .subHeader > div .navigation .mobileMenu {
+    position: relative;
+    background-color: #ccc;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(1rem + 2vw);
+  }
+  header .subHeader > div .navigation .topMenus {
+    display: none !important;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(11, 0, 135, 0.85);
+    -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: calc(1rem + 2.5vw);
+  }
+  header .subHeader > div .navigation .topMenus li {
+    width: 100%;
+    text-align: center;
+  }
+  header .subHeader > div .navigation .topMenus li:not(:last-child) {
+    margin-right: 0;
+  }
+  header .subHeader > div .navigation .topMenus li a {
+    padding: 1rem 0;
+    display: block;
+    font-size: calc(1rem + 1vw);
+    width: 100%;
+    color: #fff;
+    border-radius: 50px;
+  }
+  header .subHeader > div .navigation .topMenus li a.active {
+    background-color: #fff700;
+    color: #0b0087;
+  }
+  header .subHeader > div .navigation .topMenus .closePopup {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 4vw;
+    right: 4vw;
+    font-size: calc(2rem + 1vw);
+    color: #fff;
+    border-radius: 4px;
+  }
+  .aboutSection {
+    padding: 20vh 0 12vh;
+  }
+  .aboutSection .aboutSubSection {
+    flex-direction: column;
+  }
+  .aboutSection .aboutSubSection .profileImage {
+    max-width: inherit;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+  .workSection {
+    padding: 25vh 0 15vh;
+  }
+  .workSection .workSubSection .behindBgContainer {
+    top: -25vh;
+    max-width: 100vw;
+    left: 0;
+    border-radius: 0;
+  }
+  .workSection .workSubSection .behindBgContainer .knowMoreButton {
+    bottom: 5rem;
+  }
+  .workSection .workSubSection .behindBgContainer {
+    height: calc(100% + 42.5vh);
+  }
+  .workSection .workSubSection .projectsContainer .projectCardContainer {
+    padding: 0 5vw 5vh;
+  }
+  .editorSectionContainer {
+    display: none;
+  }
+  .skillSection {
+    margin-bottom: 8vh;
+    padding: 8vh 0;
+  }
+  .skillSection .skillHeadingContainer {
+    flex-direction: column;
+  }
+  .skillSection .skillHeadingContainer .content {
+    margin-top: 3vh;
+    -moz-column-count: 1;
+         column-count: 1;
+    max-width: 100%;
+  }
+  .skillSection .skillHeadingContainer .content p:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  .skillSection .skillCardSec {
+    margin-top: 7vh;
+  }
+  .skillSection .skillCardSec .skillCardCont {
+    padding: 0 5vw;
+  }
+  .skillSection .skillCardSec .skillCardCont .skillCard {
+    width: 320px;
+    min-width: 320px;
+  }
+  footer {
+    padding-bottom: 13vh;
+  }
+  footer .footerSocialMedia .social {
+    justify-content: space-between;
+  }
+  footer .footerSocialMedia .social li > a {
+    font-size: calc(1.75rem + 1vw);
+  }
+  footer .footerSocialMedia .social li .tooltipData {
+    display: none !important;
+  }
+  footer .footerSocialMedia .social li:hover > a {
+    background-color: #0b0087;
+    color: #fff;
+  }
+  .heroSection .container {
+    max-width: 100%;
+  }
+  .heroSection .heroSubSection {
+    height: calc(100vh - 75px);
+  }
+  .heroSection .heroSubSection .content {
+    max-width: calc(100% - 1vw);
+    padding: 0 3vw;
+  }
+  .heroSection .heroSubSection .content .shortText {
+    max-width: calc(90% + 1vw);
+  }
+  .heroSection .scroller {
+    height: 12vh;
+  }
+  .workSection .workSubSection .projectsContainer .projectCardContainer .projectCard {
+    max-width: 320px;
+    min-width: 320px;
+  }
+  .hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 576px) {
+  .skillSection .skillCardSec .skillCardCont,
+.workSection .workSubSection .projectsContainer .projectCardContainer {
+    padding-left: calc((100vw - 540px) / 2);
+    padding-right: calc((100vw - 540px) / 2);
+  }
+  .hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) {
+  .skillSection .skillCardSec .skillCardCont,
+.workSection .workSubSection .projectsContainer .projectCardContainer {
+    padding-left: calc((100vw - 720px) / 2);
+    padding-right: calc((100vw - 720px) / 2);
+  }
+  .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) {
+  .skillSection .skillCardSec .skillCardCont,
+.workSection .workSubSection .projectsContainer .projectCardContainer {
+    padding-left: calc((100vw - 960px) / 2);
+    padding-right: calc((100vw - 960px) / 2);
+  }
+  .hidden-lg {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .skillSection .skillCardSec .skillCardCont,
+.workSection .workSubSection .projectsContainer .projectCardContainer {
+    padding-left: calc((100vw - 1140px) / 2);
+    padding-right: calc((100vw - 1140px) / 2);
+  }
+  .hidden-xl {
+    display: none !important;
+  }
+}
+@media (min-width: 1400px) {
+  .skillSection .skillCardSec .skillCardCont,
+.workSection .workSubSection .projectsContainer .projectCardContainer {
+    padding-left: calc((100vw - 1320px) / 2);
+    padding-right: calc((100vw - 1320px) / 2);
+  }
+  .hidden-xxl {
+    display: none !important;
+  }
+}/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,128 @@
+{
+    "name": "Saud Khan",
+    "name_in_array": [
+        "Saud",
+        "Khan"
+    ],
+    "designation": "Full-Stack Developer",
+    "years_of_experience": 6,
+    "description": {
+        "short": "I am a 27 years old motivated Full Stack Developer focused on user interface and user experience design. I am working at a company called TPConnects, and studying during my free time User Experience Design at IU International Hochschule.",
+        "full": ""
+    },
+    "dob": "30-06-1995",
+    "nationality": "india",
+    "skills": [
+        {
+            "name": "React.js",
+            "description": "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.",
+            "link": "https://reactjs.org/",
+            "bg_img": "./assets/images/react.svg",
+            "img": "./assets/images/react.svg",
+            "percent": 80,
+            "style": {
+                "--bgColor": "#252525",
+                "--textColor": "#61DAFB",
+                "--percentageColor": "#61DAFB"
+            }
+        },
+        {
+            "name": "Node.js",
+            "description": "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.",
+            "link": "https://reactjs.org/",
+            "bg_img": "./assets/images/nodejs_transparent.svg",
+            "img": "./assets/images/nodejs.svg",
+            "percent": 80,
+            "style": {
+                "--bgColor": "#8BC500"
+            }
+        },
+        {
+            "name": "Angular.js",
+            "description": "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.",
+            "link": "https://reactjs.org/",
+            "bg_img": "./assets/images/angular.svg",
+            "img": "./assets/images/angular.svg",
+            "percent": 80,
+            "style": {
+                "--bgColor": "#C3002F"
+            }
+        },
+        {
+            "name": "JavaScript",
+            "description": "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.",
+            "link": "https://reactjs.org/",
+            "bg_img": "./assets/images/js.svg",
+            "img": "./assets/images/js.svg",
+            "percent": 80,
+            "style": {
+                "--bgColor": "#F7DF1E",
+                "--textColor": "#000000",
+                "--percentageColor": "#000000",
+                "--percentageBarColor": "#000000"
+            }
+        },
+        {
+            "name": "Responsive Website",
+            "description": "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.",
+            "link": "https://reactjs.org/",
+            "bg_img": "./assets/images/responsive.svg",
+            "img": "./assets/images/responsive.svg",
+            "percent": 80,
+            "style": {
+                "--bgColor": "#0B0087"
+            }
+        },
+        {
+            "name": "Bootstrap",
+            "description": "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.",
+            "link": "https://reactjs.org/",
+            "bg_img": "./assets/images/bootstrap.svg",
+            "img": "./assets/images/bootstrap.svg",
+            "percent": 80,
+            "style": {
+                "--bgColor": "#7A10F8"
+            }
+        },
+        {
+            "name": "HTML5",
+            "description": "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.",
+            "link": "https://reactjs.org/",
+            "bg_img": "./assets/images/html5.svg",
+            "img": "./assets/images/html5.svg",
+            "percent": 80,
+            "style": {
+                "--bgColor": "#E44F26"
+            }
+        },
+        {
+            "name": "CSS3",
+            "description": "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.",
+            "link": "https://reactjs.org/",
+            "bg_img": "./assets/images/css3.svg",
+            "img": "./assets/images/css3.svg",
+            "percent": 80,
+            "style": {
+                "--bgColor": "#1735A5"
+            }
+        }
+    ],
+    "menu": [
+        {
+            "link": "#about",
+            "text": "About"
+        },
+        {
+            "link": "/work",
+            "text": "Work"
+        },
+        {
+            "link": "#skill",
+            "text": "Skill"
+        },
+        {
+            "link": "/contact",
+            "text": "Contact"
+        }
+    ]
+}
